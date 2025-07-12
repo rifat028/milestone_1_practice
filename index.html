@@ -13,10 +13,12 @@
         nav li a{
             text-decoration: none;
             color: black;
-                    }
+                                }
         nav ul{
             list-style-type: none;
             display: flex;
+            justify-content: end;
+            /* align-items: center; */
         }
         ul li{
             margin-right: 50px; 
@@ -26,20 +28,28 @@
             padding: 10px;
             justify-content: right;
         }
+        nav li:hover{
+            background-color: azure;
+            font-weight: bolder;
+            color: blueviolet;
+        }
         label{
             display: block;
         }
         .flexmar{
             display: flex;
-            
-            justify-content: center;
+            /* margin: 0px auto; */
+            height: 200px;
+            background-color: white;
+            align-items: center;
         }
         .flexmar div{
             border: 2px solid blue;
             width: 50px;
             text-align: center;
-            height: 20px;
-            margin: 10px;
+            height: 40px;
+            margin: 0 auto;
+            background-color: skyblue;
         }
     </style>
 </head>
@@ -137,13 +147,7 @@
     </div>
     
     </form>
-    <br>&nbsp;
-    <br>&nbsp;
-    <br>&nbsp;
-    <br>&nbsp;
-    <br>&nbsp;
-    <br>&nbsp;
-    <br>&nbsp;
+
     <h1>lets practice flex</h1>
     <div class="flexmar">
         <div>-1-</div>
@@ -152,5 +156,12 @@
         <div>-4-</div>
         <div>-5-</div>
     </div>
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
 </body>
 </html>
