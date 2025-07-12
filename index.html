@@ -29,6 +29,18 @@
         label{
             display: block;
         }
+        .flexmar{
+            display: flex;
+            
+            justify-content: center;
+        }
+        .flexmar div{
+            border: 2px solid blue;
+            width: 50px;
+            text-align: center;
+            height: 20px;
+            margin: 10px;
+        }
     </style>
 </head>
 <body style="background-color: #edefeb;">
@@ -89,6 +101,7 @@
     <br>&nbsp;
     <div style="margin: 30px;padding: 20px;" >
         <form>
+        <div style="display: flex;">
         <fieldset>
             <legend >
                 website kemon holo 
@@ -114,6 +127,13 @@
             <input type="checkbox" name="feedback" id="text">
             <label for="text">text</label>
         </fieldset>
+        <fieldset>
+            <legend>overall comment</legend>
+            <textarea cols="50" rows="5" name="" id=""></textarea>
+        </fieldset>
+        </div>
+        <input type="submit" value="sbmit">
+        <input type="reset" value="reset">
     </div>
     
     </form>
@@ -124,5 +144,13 @@
     <br>&nbsp;
     <br>&nbsp;
     <br>&nbsp;
+    <h1>lets practice flex</h1>
+    <div class="flexmar">
+        <div>-1-</div>
+        <div>-2-</div>
+        <div>-3-</div>
+        <div>-4-</div>
+        <div>-5-</div>
+    </div>
 </body>
 </html>
