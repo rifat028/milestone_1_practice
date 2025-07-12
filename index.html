@@ -10,9 +10,37 @@
         h1{
             color: blue ;
         }
+        nav li a{
+            text-decoration: none;
+            color: black;
+                    }
+        nav ul{
+            list-style-type: none;
+            display: flex;
+        }
+        ul li{
+            margin-right: 50px; 
+            border: 2px solid red;
+            border-radius: 4px;
+            background-color: rgb(186, 162, 208);
+            padding: 10px;
+            justify-content: right;
+        }
+        label{
+            display: block;
+        }
     </style>
 </head>
 <body style="background-color: #edefeb;">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">home</a></li>        
+                <li><a href="contact.html">contact</a></li>        
+                <li><a href="about.html">about us</a></li>        
+            </ul>
+        </nav>
+    </header>
     <div style ="text-align: center; font-size: 30px; background-color: rgb(178, 211, 239);">
         <br>
         <input type="text" align ="center" size="80" height="200%" placeholder="Search blog here..." style="height: 30px; border-radius: 10px;">
@@ -50,7 +78,51 @@
     </div>
     <img src="food.jpg">
     <audio controls src="audio1218941169.m4a"></audio>
-    <video controls src="video1218941169.mp4"></video>
+    <!-- <video controls src="video1218941169.mp4"></video> -->
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hRHV5cjEB1w?si=gPWVOes-YQ-SWzf_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
+    <div style="margin: 30px;padding: 20px;" >
+        <form>
+        <fieldset>
+            <legend >
+                website kemon holo 
+            </legend>
+            <label for="review">Valo mondo likhen</label>
+            <input type="text" name="" id="review">
+        </fieldset>
+        <fieldset>
+            <legend >mark dau </legend>
+            <input type="radio" name="mark" id="50">
+            <label for="50">50</label>
+            <input type="radio" name="mark" id="70">
+            <label for="50">70</label>
+            <input type="radio" name="mark" id="100">
+            <label for="50">100</label>            
+        </fieldset>
+        <fieldset>
+            <legend>ki ki valo korbo</legend>
+            <input type="checkbox" name="feedback" id="color">
+            <label for="color">color</label>
+            <input type="checkbox" name="feedback" id="design">
+            <label for="design">design</label>
+            <input type="checkbox" name="feedback" id="text">
+            <label for="text">text</label>
+        </fieldset>
+    </div>
+    
+    </form>
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
 </body>
 </html>
